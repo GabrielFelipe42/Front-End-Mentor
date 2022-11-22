@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media  screen and (min-width:1200px) {
+
+    main {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 95vh;
+    }
+
+    section {
+        display: flex;
+        flex-direction: row;
+        width: 1002px;
+    }
+
+    section div {
+        width: 334px;
+    }
+}

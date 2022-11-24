@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.div-head {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0 2%;
+
+    display: flex;
+}
+
+.logo h2{
+    font-size: 3em;
+    font-family: 'DM Serif Display', serif;
+}
+
+.menu {
+    text-align: right;
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+.menu a {
+    color: rgba(128, 128, 128, 0.774);
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: calc(2% + 3px);
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+main {
+    background-color: white;
+}
+
+.div-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0px 2%;
+}
+
+.cont1 {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.cont1-1 {
+    width: 690px;
+}
+
+.cont1-1-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.img{
+    background-image: url(../assets/images/image-web-3-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 690px;
+    height: 285px;
+}
+
+.text {
+    width: calc(690px / 2);
+    text-align: left;
+}
+
+.text h1 {
+    font-size: 3.5em;
+    line-height: 1em;
+}
+
+.text p {
+    color: gray;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    line-height: 1.7em;
+    font-size: 0.9em;
+}
+
+button {
+    border: none;
+
+    font-size: 0.95em;
+    font-weight: bold;
+
+    background-color: orangered;
+    color: white;
+
+    padding: 10px 25px;
+    margin-top: 55px;
+
+    transition: 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(189, 125, 5);
+
+    transition: 0.3s;
+}
+
+.cont1-2 {
+    margin-left: 20px;
+    width: calc(1100px - (690 +20));
+
+    background-color: black;
+    color: white;
+
+    padding: 20px;
+}
+
+.cont1-2 h2 {
+    color: orange;
+    font-size: 2.3em;
+    margin-top: 10px;
+}
+
+.cont1-2 h3 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.cont1-2 p {
+    padding-top: 10px;
+    color: rgba(174, 174, 174, 0.789);
+    font-weight:500;
+    line-height: 1.5em;
+}
+
+.cont2 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.container_mini {
+    display: flex;
+    width: calc(100%/3); 
+}
+
+.text_mini {
+    padding: 0px 15px;
+}
+
+.text_mini h4 {
+    color: rgba(159, 159, 159, 0.804);
+    font-size: 1.6em;
+}
+
+.text_mini h5 {
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 6px;
+    font-size: 1.05em;
+}
+
+.text_mini p {
+    font-size: 0.8em;
+    color: rgb(113, 113, 113);
+    padding-top: 8px;
+}
+
+.img_mini {
+    background-image: url(../assets/images/image-retro-pcs.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 120px;
+    height: 100px;
+}
+
+.img_mini2 {
+    background-image: url(../assets/images/image-top-laptops.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 120px;
+    height: 100px;
+}
+
+.img_mini3 {
+    background-image: url(../assets/images/image-gaming-growth.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 120px;
+    height: 100px;
+}
